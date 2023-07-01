@@ -1,0 +1,17 @@
+{
+  "name": "web-client",
+  "version": "1.0.0",
+  "description": "Front-end webclient to initiate file transfers from local filesystem to remote filesystem over websockets.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "preview": "cd svelte && npm run build && npm run dev"
+  },
+  "devDependencies": {
+    "svelte": "^3.59.1"
+  },
+  "dependencies": {
+    "typescript": "^5.0.4",
+    "ws": "^8.13.0"
+  }
+}
